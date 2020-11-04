@@ -1,0 +1,246 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>UnLock | ReparamosTuIphone</title>
+    <link rel="shortcut icon" type="image/png" href="iconopagina.png">
+
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+  <div id=fondo>
+      <header id=fondi>
+        <h1>UnLock<span class="color"> 🔓</span></h1>
+        <div class="navbar">
+    <a href="index.html">Inicio</a>
+    <a href="reparar.html">Reparar telefono</a>
+    <a href="contact.html">Contacto</a>
+    <div class="dropdown">
+      <button class="dropbtn">Servicios
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a>Reparacion de Pantalla</a>
+        <a>Remplazo de Bateria</a>
+        <a>Reparacion camara delantera</a>
+        <a>Reparacion camara trasera</a>
+
+
+
+    </div>
+  </div>
+
+      </header>
+
+
+
+
+
+<h3>Reparar mi iPhone</h3>
+
+<div id=tabla1 class="table-box">
+        <div class="table-row table-head">
+
+            <div class="table-cell dispositivo">
+                <p> ¿Qué quieres reparar? </p>
+            </div>
+            <div class="table-cell reparacion">
+                <p> Tipos de reparación </p>
+            </div>
+            <div class="table-cell precio">
+                <p> Precio </p>
+            </div>
+        </div>
+
+
+
+        <!--Iphone 7 -->
+        <div class="table-row">
+            <div class="table-cell dispositivo">
+                <p>Iphone 7 </p>
+            </div>
+            <div class="table-cell reparacion">
+              <select id="iphone7" onChange="changeColor('iphone7', 'iphone7-price')">
+                <option value="None" selected> Tipo de Reparacion </option>
+                <option value="75,00 €">Reparacion de Pantalla</option>
+                <option value="49,00 €">Remplazo de Bateria</option>
+                <option value="62,00 €">Reparacion camara delantera</option>
+                <option value="85,00 €">Reparacion camara trasera</option>
+
+              </select>
+            </div>
+            <div class="table-cell precio">
+                <p id="iphone7-price">49,00€ – 220,00€</p>
+
+                <script>
+                  function changeColor(phone, price) {
+                      const desplegable = document.getElementById(phone);
+                      const valor = desplegable.options[desplegable.selectedIndex].value;
+                      document.getElementById(price).innerHTML = valor;
+                    }
+
+              </script>
+
+            </div>
+        </div>
+
+        <!--Iphone 7 Plus  -->
+        <div class="table-row">
+            <div class="table-cell dispositivo">
+                <p>Iphone 7 Plus  </p>
+            </div>
+            <div class="table-cell reparacion">
+              <select id="iphone7plus" onChange="changeColor('iphone7plus', 'iphone7plus-price')">
+                <option value="None" selected> Tipo de Reparacion  </option>
+                <option value="80,00 €">Reparacion de Pantalla</option>
+                <option value="55,00 €">Remplazo de Bateria</option>
+                <option value="65,00 €">Reparacion camara delantera</option>
+                <option value="115,00 €">Reparacion camara trasera</option>
+
+              </select>
+            </div>
+            <div class="table-cell precio">
+                <p id="iphone7plus-price">50,00€ – 220,00€</p>
+
+                <script>
+                  function changeColor(phone, price) {
+                      const desplegable = document.getElementById(phone);
+                      const valor = desplegable.options[desplegable.selectedIndex].value;
+                      document.getElementById(price).innerHTML = valor;
+                    }
+              </script>
+            </div>
+
+        </div>
+
+        <!--Iphone 8-->
+        <div class="table-row">
+            <div class="table-cell dispositivo">
+                <p>Iphone 8 </p>
+            </div>
+            <div class="table-cell reparacion">
+              <select id="iphone8" onChange="changeColor('iphone8', 'iphone8-price')">
+                <option value="None" selected> Tipo de Reparacion </option>
+                <option value="85,00 €">Reparacion de Pantalla</option>
+                <option value="65,00 €">Remplazo de Bateria</option>
+                <option value="110,00 €">Reparacion camara delantera</option>
+                <option value="130,00 €">Reparacion camara trasera</option>
+
+              </select>
+            </div>
+            <div class="table-cell precio">
+                <p id="iphone8-price">50,00€ – 300,00€</p>
+
+                <script>
+                  function changeColor(phone, price) {
+                      const desplegable = document.getElementById(phone);
+                      const valor = desplegable.options[desplegable.selectedIndex].value;
+                      document.getElementById(price).innerHTML = valor;
+                    }
+
+              </script>
+
+            </div>
+
+        </div>
+
+
+        <!--Iphone 8 Plus-->
+        <div class="table-row">
+            <div class="table-cell dispositivo">
+                <p>Iphone 8 Plus </p>
+            </div>
+            <div class="table-cell reparacion">
+              <select id="iphone8plus" onChange="changeColor('iphone8plus', 'iphone8plus-price')">
+                <option value="None" selected> Tipo de Reparacion </option>
+                <option value="90,00 €">Reparacion de Pantalla</option>
+                <option value="65,00 €">Remplazo de Bateria</option>
+                <option value="85,00 €">Reparacion camara delantera</option>
+                <option value="170,00 €">Reparacion camara trasera</option>
+
+              </select>
+            </div>
+            <div class="table-cell precio">
+                <p id="iphone8plus-price">50,00€ – 300,00€</p>
+
+                <script>
+                  function changeColor(phone, price) {
+                      const desplegable = document.getElementById(phone);
+                      const valor = desplegable.options[desplegable.selectedIndex].value;
+                      document.getElementById(price).innerHTML = valor;
+                    }
+
+              </script>
+
+            </div>
+
+        </div>
+
+
+        <!--Iphone X-->
+        <div class="table-row">
+            <div class="table-cell dispositivo">
+                <p>Iphone X </p>
+            </div>
+            <div class="table-cell reparacion">
+              <select id="iphoneX" onChange="changeColor('iphoneX', 'iphoneX-price')">
+                <option value="None" selected> Tipo de Reparacion </option>
+                <option value="195,00 €">Reparacion de Pantalla</option>
+                <option value="90,00  €">Remplazo de Bateria</option>
+                <option value="160,00 €">Reparacion camara delantera</option>
+                <option value="160,00 €">Reparacion camara trasera</option>
+
+              </select>
+            </div>
+            <div class="table-cell precio">
+                <p id="iphoneX-price">80,00€ – 400,00€</p>
+
+                <script>
+                  function changeColor(phone, price) {
+                      const desplegable = document.getElementById(phone);
+                      const valor = desplegable.options[desplegable.selectedIndex].value;
+                      document.getElementById(price).innerHTML = valor;
+                    }
+
+              </script>
+
+            </div>
+
+
+</div>
+
+
+<div id="cta">
+    <div class="wrapper">
+      <h4>Remplazo de Bateria</h4>
+      <article  style="background-image: url('iphone-7battery.png');">
+      <p><small>Este video mostrará cómo reemplazo la batería de un Apple iPhone 7</small></p>
+        <a href="https://www.youtube.com/watch?v=e743HCkxfks" class="button-2">Tutorial</a>
+    </div>
+</div>
+
+
+		<footer class="footer-distributed">
+
+
+			<div class="footer-left">
+
+				<p class="footer-links">
+
+
+					<a href="reparar.html">Repara Tu Iphone</a>
+
+					<a href="contact.html">Contacto</a>
+
+				</p>
+
+				<p>UnLock | ReparaTuIphone &copy; 2019. All rights reserved</p>
+			</div>
+
+		</footer>
+
+</body>
+</html>
